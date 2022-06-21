@@ -1,15 +1,15 @@
 import "./Header.css";
 
-import Road from "../assets/long.jpg";
+import World from "../assets/hand.jpg";
 
 const Header = () => {
   return (
     <div className="header">
       <div className="header-titles">
-        <span className="header-title-sm">React & Node</span>
+        <span className="header-title-sm">Dolly & Dev</span>
         <span className="header-title-lg">Blog</span>
       </div>
-      <img className="header-img" src={Road} alt="Space" />
+      <img className="header-img" src={World} alt="Space" />
     </div>
   );
 };
